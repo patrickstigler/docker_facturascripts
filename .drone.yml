@@ -5,7 +5,7 @@ steps:
 - name: docker  
   image: plugins/docker
   settings:
-    repo: patrickstigler/obs-ndi
+    repo: patrickstigler/facturascripts
     username:
       from_secret: docker_username
     password:
